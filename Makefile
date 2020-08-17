@@ -1,18 +1,22 @@
 BIN = leaden
 
 
-.PHONY: all clean install uninstall distclean
+.PHONY: all build clean install uninstall distclean
 
 
-all:
-	@echo did nothing. try targets: install, or uninstall.
+all: build
+
+
+build:
+	pyuic5 -x $(BIN)/ui.ui -o $(BIN)/ui.py
 
 
 clean:
+	$(RM) $(BIN)/ui.py
 	$(RM) -dr $(BIN).egg-info
+	$(RM) -dr $(BIN)/__pycache__
 	$(RM) -dr build
 	$(RM) -dr dist
-	$(RM) -dr $(BIN)/__pycache__
 
 
 install:

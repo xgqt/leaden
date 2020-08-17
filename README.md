@@ -52,7 +52,7 @@ Some functions of Leaden may be also called from console. Run `leaden --help` to
 ## Manual
 
 - clone this project using git
-- run `make install`
+- run `make && make install`
 
 ## Ebuild
 
