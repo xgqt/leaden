@@ -2,6 +2,10 @@
 
 
 import sys
+from subprocess import call
+
+call(["make"])
+
 
 import leaden.cmdline
 
