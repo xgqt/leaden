@@ -1,3 +1,5 @@
+# LEADEN
+
 <p align="center">
     <a href="https://gitlab.com/src_prepare/leaden/pipelines">
         <img src="https://gitlab.com/src_prepare/badge/leaden/master/pipeline.svg">
@@ -17,7 +19,7 @@
 </p>
 
 
-# LEADEN
+# About
 
 Light Ebuild Automated Development Environment Notebook
 
@@ -26,9 +28,6 @@ Light Ebuild Automated Development Environment Notebook
         <img src="./lead.png">
     </a>
 </p>
-
-
-# About
 
 **Warning! Work in Progress!**
 
@@ -41,20 +40,20 @@ The reason for a graphical editor as opposed to console interface one is that we
 Some functions of Leaden may be also called from console. Run `leaden --help` to get more info about those.
 
 
-# Installation
+## Installation
 
-## Dependencies
+### Dependencies
 
 - portage
 - pyqt
 - repoman
 
-## Manual
+### Manual
 
 - clone this project using git
 - run `make && make install`
 
-## Ebuild
+### Ebuild
 
 - add src_prepare overlay
 - run `sudo emerge -av --autounmask dev-util/leaden`
@@ -62,4 +61,23 @@ Some functions of Leaden may be also called from console. Run `leaden --help` to
 
 # License
 
-GNU GPL Version 3
+SPDX-License-Identifier: GPL-3.0-only
+
+## Unless otherwise stated contents here are under the GNU GPL v3 license
+
+This file is part of leaden.
+
+leaden is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, version 3.
+
+leaden is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with leaden.  If not, see <https://www.gnu.org/licenses/>.
+
+Copyright (c) 2020-2021, src_prepare group
+Licensed under the GNU GPL v3 License
